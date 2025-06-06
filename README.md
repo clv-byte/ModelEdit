@@ -1,5 +1,12 @@
 # ModelEdit
-模型知识编辑预备知识
+模型知识编辑相关数据集
+| 数据集名称 | 数据集特色|
+|:-------:|:-------:|
+|Counterfact|knowledge as triples|
+|ZsRE|knowledge as triples|
+|EditEverything|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
+
+
 
 模型知识编辑
 | 论文标题 | 发表会议|代码链接|作者 OR 机构|主要创新点 |局限|
