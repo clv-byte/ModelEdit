@@ -2,7 +2,7 @@
 模型知识编辑相关数据集
 | 数据集名称 | 数据集特色|
 |:-------:|:-------:|
-|[Counterfact](https://rome.baulab.info/data/dsets/)|knowledge as triples|
+|[Counterfact](https://rome.baulab.info/data/dsets/)|knowledge as triples,数据集中包含人为制造反事实数据，可用于评测模型其他知识是否受到编辑答案干扰|
 |ZsRE|knowledge as triples|
 |EditEverything|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
 
