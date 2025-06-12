@@ -8,7 +8,9 @@
 |[Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229)|ICLR 2023|[code](https://memit.baulab.info/)|Kevin Meng|弥补了《Locating and Editing Factual Associations in GPT》缺陷，可一次编辑多个知识|多次编辑会破坏模型原有性能；编辑知识局限于（s，r，o）三元组形式|
 | [ALPHAEDIT: NULL-SPACE CONSTRAINEDKNOWLEDGE EDITING FOR LANGUAGE MODELS](https://arxiv.org/abs/2410.04045)  |ICLR 2025|[code](https://github.com/jianghoucheng/AlphaEdit)|王翔（中科大教授）|用零空间特性优化模型原有知识分布偏移问题| 更新的模型知识局限于（s,r,0）三元组形式，无法做到任意格式知识编辑 |
 | [AnyEdit: Edit Any Knowledge Encoded in Language Models](https://arxiv.org/abs/2502.05628)  |/|/|王翔（中科大教授）|将更新知识答案拆分为多个单个token，用ALPHAEDIT方法优化每个token，更新答案形式摆脱了限制，答案形式可以扩展到mathematics, news, code, and biochemistry,etc|无法多次编辑，因为多次编辑可能造成新旧知识冲突；目前任然缺少多模态知识编辑|
+|[Editing Factual Knowledge in Language Models](https://arxiv.org/abs/2104.08164)|EMNLP2021|[code](https://github.com/nicola-decao/KnowledgeEditor)|Nicola De Cao|将模型知识编辑看作一种学习任务，微调模型参数，只是在损失函数里加入了更新前后其他知识KL散度限制||
 |[FAST MODEL EDITING AT SCALE](https://arxiv.org/abs/2110.11309)|ICLR 2022|[code](https://sites.google.com/view/mend-editing)|Eric Mitchell|梯度更新MLP矩阵w，并对梯度w的偏导梯度降秩处理||
+
 
 <h2>保留模型原始参数：</h2>
 
