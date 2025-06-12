@@ -1,12 +1,4 @@
 # ModelEdit
-模型知识编辑相关数据集
-| 数据集名称 |论文| 数据集特色|
-|:-------:|:-------:|:-------:|
-|[Counterfact](https://rome.baulab.info/data/dsets/)|[Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229)|knowledge as triples（s,r,o）,数据集中包含人为制造反事实数据，可用于评测模型其他知识是否受到编辑答案干扰|
-|[ZsRE](http://nlp.cs.washington.edu/zeroshot/)|[Zero-Shot Relation Extraction via Reading Comprehension](http://nlp.cs.washington.edu/zeroshot/zeroshot.pdf)|knowledge as triples(s,r,0),包含多个相同语义的问题|
-|EditEverything|[AnyEdit: Edit Any Knowledge Encoded in Language Models](https://arxiv.org/abs/2502.05628)|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
-
-
 
 修改模型参数：
 | 论文标题 | 发表会议|代码链接|作者 OR 机构|主要创新点 |局限|
@@ -21,5 +13,13 @@
 | 论文标题 | 发表会议|代码链接|作者 OR 机构|主要创新点 |局限|
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |[Memory-Based Model Editing at Scale](https://arxiv.org/abs/2206.06520)|ICML 2022|[code](https://sites.google.com/view/serac-editing)|Eric Mitchell|使用RAG匹配修改过的知识：1、训练一个分类器预测X-input是否属于之前任意一个修改过知识；2、若否，则用原有模型预测；3、若是，则用新的counterfacet model预测(用编辑过的知识训练的一个预测模型)||
+
+模型知识编辑相关数据集
+| 数据集名称 |论文| 数据集特色|
+|:-------:|:-------:|:-------:|
+|[Counterfact](https://rome.baulab.info/data/dsets/)|[Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229)|knowledge as triples（s,r,o）,数据集中包含人为制造反事实数据，可用于评测模型其他知识是否受到编辑答案干扰|
+|[ZsRE](http://nlp.cs.washington.edu/zeroshot/)|[Zero-Shot Relation Extraction via Reading Comprehension](http://nlp.cs.washington.edu/zeroshot/zeroshot.pdf)|knowledge as triples(s,r,0),包含多个相同语义的问题|
+|EditEverything|[AnyEdit: Edit Any Knowledge Encoded in Language Models](https://arxiv.org/abs/2502.05628)|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
+
 
 
