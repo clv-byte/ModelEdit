@@ -2,8 +2,8 @@
 模型知识编辑相关数据集
 | 数据集名称 | 数据集特色|
 |:-------:|:-------:|
-|[Counterfact](https://rome.baulab.info/data/dsets/)|knowledge as triples（s,r,o）,数据集中包含人为制造反事实数据，可用于评测模型其他知识是否受到编辑答案干扰|
-|[ZsRE](http://nlp.cs.washington.edu/zeroshot/)|[论文链接]（http://nlp.cs.washington.edu/zeroshot/zeroshot.pdf）knowledge as triples(s,r,0),包含多个相同语义的问题|
+|[Counterfact](https://rome.baulab.info/data/dsets/)|[论文链接](https://arxiv.org/abs/2210.07229)knowledge as triples（s,r,o）,数据集中包含人为制造反事实数据，可用于评测模型其他知识是否受到编辑答案干扰|
+|[ZsRE](http://nlp.cs.washington.edu/zeroshot/)|[论文链接](http://nlp.cs.washington.edu/zeroshot/zeroshot.pdf)knowledge as triples(s,r,0),包含多个相同语义的问题|
 |EditEverything|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
 
 
