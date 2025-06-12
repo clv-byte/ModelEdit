@@ -1,6 +1,6 @@
 # ModelEdit
 
-修改模型参数：
+<h5>修改模型参数：</h5>
 | 论文标题 | 发表会议|代码链接|作者 OR 机构|主要创新点 |局限|
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262)|NeurIPS 2022|[code](https://rome.baulab.info)|Kevin Meng|1、将模型知识看作（s，r，o）形式，并揭示了S最后一个token在中间层MLP输出向量与最终预测token O具有强联系，2、提出了ROME编辑方法 3、提出了Counterfact数据集|1、一次只能修改单个知识，无法批量修改，2、ROME本质没有学会修改的知识，仅仅是增加了下个目标token概率。eg：“中国的首都是北京”与“北京是中国的首都”这两个知识需要分别修改两次|
