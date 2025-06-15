@@ -62,10 +62,10 @@ Eric Mitchell,Charles Lin,Antoine Bosselut, Christopher D Manning , Chelsea Finn
 Aman Madaan, Niket Tandon, Peter Clark, Yiming Yang [![EMNLP2022](https://img.shields.io/badge/EMNLP2022-blue)](https://arxiv.org/abs/2201.06009) [![Code](https://img.shields.io/badge/Code-green)](https://memprompt.com)
 
 ● **Can We Edit Factual Knowledge by In-Context Learning?**  
-Ce Zheng [![Arxiv](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2305.12740) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/Zce1112zslx/IKE)  
+Ce Zheng, Lei Li, Qingxiu Dong, Yuxuan Fan, Zhiyong Wu, Jingjing Xu, Baobao Chang [![Arxiv](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2305.12740) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/Zce1112zslx/IKE)  
 
 ● **MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions**  
-Zexuan Zhong [![EMNLP2023](https://img.shields.io/badge/EMNLP2023-blue)](https://arxiv.org/abs/2305.14795) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/princeton-nlp/MQuAKE)  
+Zexuan Zhong, Zhengxuan Wu, Christopher D. Manning, Christopher Potts, Danqi Chen [![EMNLP2023](https://img.shields.io/badge/EMNLP2023-blue)](https://arxiv.org/abs/2305.14795) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/princeton-nlp/MQuAKE)  
 
 
 # meta-learning
