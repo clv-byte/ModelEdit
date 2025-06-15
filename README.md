@@ -13,7 +13,7 @@
 |[Modifying Memories in Transformer Models](https://arxiv.org/abs/2012.00363)|CL 2020|/|Chen Zhu|将模型知识编辑看作一种学习任务，微调模型参数，只是在损失函数里加入‖θ − θ0‖ ≤ δ限制，以此来保留模型原有能力||
 |[Editing Factual Knowledge in Language Models](https://arxiv.org/abs/2104.08164)|EMNLP 2021|[code](https://github.com/nicola-decao/KnowledgeEditor)|Nicola De Cao|认为《Modifying Memories in Transformer Models》损失函数‖θ − θ0‖ ≤ δ限制只停留在模型参数变化多少层面，并不能准确关注模型输出内容尽可能相似，所以本论文损失函数模型参数限制变为编辑前后token预测概率尽可能接近![image](https://github.com/user-attachments/assets/60e50b6f-7710-486f-be98-f21b2100bf88)|/|
 |[Uncovering Overfitting in Large Language Model Editing](https://arxiv.org/abs/2410.07819)|ICLR 2025|/|Pengjie Ren|1、发现了目前知识编辑存在过拟合现象；2、提出了EVOKE benchmark；3、针对过拟合问题，提出了几种策略：（1）模型修改程度限制（2）将编辑知识作为batch编辑 （3）对编辑知识数据增强（4）运用模型上下文学习能力来学习参数修改|依赖于模型本身的上下文学习能力，模型本身是否能根据上下文产生正确答案至关重要|
-|[Is it Possible to Edit Large Language Models Robustly?](https://iclr.cc/virtual/2024/22177)|ICLR 2024||Xinbei Ma|||
+|[Is it Possible to Edit Large Language Models Robustly?](https://iclr.cc/virtual/2024/22177)|ICLR 2024|/|Xinbei Ma|||
 
 
 
