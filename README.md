@@ -42,7 +42,7 @@
 ![ACL2024](https://img.shields.io/badge/ACL2024-findings-brightgreen)
 ![Code](https://img.shields.io/badge/Code-gray)
 ![Survey](https://img.shields.io/badge/Survey_on_Speculative_Decoding-lightgrey)
-[![ICLR2025](https://img.shields.io/badge/ICLR-2025-blue)]((https://arxiv.org/abs/2410.07819))
+[![ICLR2025](https://img.shields.io/badge/ICLR-2025-blue)](https://arxiv.org/abs/2410.07819)
 
 
 
