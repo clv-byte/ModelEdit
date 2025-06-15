@@ -1,5 +1,5 @@
 # ModelEdit
-
+- [Memory Based](#memory-based)
 <h2>修改模型原始参数</h2>
 
 | 论文标题 | 发表会议|代码链接|作者 OR 机构|主要创新点 |局限|
@@ -44,7 +44,7 @@
 [![ICLR2025](https://img.shields.io/badge/ICLR-2025-blue)](https://arxiv.org/abs/2410.07819)
 # 目录
 
-- [Memory Based](#memory-based)
+
 
 ---
 
