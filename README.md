@@ -1,6 +1,6 @@
 # ModelEdit
-<span style="background-color:#28a745; color:red; padding:2px 6px; border-radius:5px; font-size:80%">Green</span>
-<span style="color:red">这是红色字体</span>
+
+
 <h2>修改模型原始参数</h2>
 
 | 论文标题 | 发表会议|代码链接|作者 OR 机构|主要创新点 |局限|
@@ -35,6 +35,14 @@
 |[ZsRE](http://nlp.cs.washington.edu/zeroshot/)|[Zero-Shot Relation Extraction via Reading Comprehension](http://nlp.cs.washington.edu/zeroshot/zeroshot.pdf)|knowledge as triples(s,r,0),包含多个相同语义的问题|
 |EditEverything|[AnyEdit: Edit Any Knowledge Encoded in Language Models](https://arxiv.org/abs/2502.05628)|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
 |EVOKE|[Uncovering Overfitting in Large Language Model Editing](https://arxiv.org/abs/2410.07819)|包含对应编辑问题，需要多步推理的问题，比如：编辑的知识是微软创世人是谁？对应多步推理问题：微软创始人毕业学校是？后一个问题答案依赖于前一个问题答案|
+
+
+![Arxiv](https://img.shields.io/badge/Arxiv-orange)
+![PDF](https://img.shields.io/badge/PDF-blue)
+![ACL2024](https://img.shields.io/badge/ACL2024-findings-brightgreen)
+![Code](https://img.shields.io/badge/Code-gray)
+![Survey](https://img.shields.io/badge/Survey_on_Speculative_Decoding-lightgrey)
+![ICLR2025](https://img.shields.io/badge/ICLR-2025-blue)
 
 
 
