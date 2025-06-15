@@ -29,6 +29,7 @@
 |[Counterfact](https://rome.baulab.info/data/dsets/)|[Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229)|knowledge as triples（s,r,o）,数据集中包含人为制造反事实数据，可用于评测模型其他知识是否受到编辑答案干扰|
 |[ZsRE](http://nlp.cs.washington.edu/zeroshot/)|[Zero-Shot Relation Extraction via Reading Comprehension](http://nlp.cs.washington.edu/zeroshot/zeroshot.pdf)|knowledge as triples(s,r,0),包含多个相同语义的问题|
 |EditEverything|[AnyEdit: Edit Any Knowledge Encoded in Language Models](https://arxiv.org/abs/2502.05628)|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
+|EVOKE|[Uncovering Overfitting in Large Language Model Editing](https://arxiv.org/abs/2410.07819)|包含对应编辑问题，需要多步推理的问题，不如：编辑的知识是微软创世人是谁？对应多步推理问题：微软创始人毕业学校是？后一个问题答案依赖于前一个问题答案|
 
 
 
