@@ -54,7 +54,8 @@
 ---
 
 # Memory Based
-
+● **Memory-Based Model Editing at Scale**  
+Eric Mitchell,Charles Lin,Antoine Bosselut, Christopher D Manning , Chelsea Finn [![ICML2022](https://img.shields.io/badge/ICML-2022-blue)](https://sites.google.com/view/serac-editing)[![Code](https://img.shields.io/badge/Code-gray)](https://sites.google.com/view/serac-editing)
 # meta-learning
 # locate-edit
 
