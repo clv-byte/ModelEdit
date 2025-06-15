@@ -79,7 +79,7 @@ Chen Zhu [![CL2020](https://img.shields.io/badge/CL2020-blue)](https://arxiv.org
 
 ● **Editing Factual Knowledge in Language Models**  
 Nicola De Cao [![EMNLP2021](https://img.shields.io/badge/EMNLP2021-blue)](https://arxiv.org/abs/2104.08164) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/nicola-decao/KnowledgeEditor)  
-主要创新点：指出前作中损失函数‖θ − θ0‖ ≤ δ限制仅关注参数变化幅度，忽略输出内容相似性；本论文改为限制编辑前后token预测概率尽可能接近，提高编辑后模型输出的准确性和一致性。![image](https://github.com/user-attachments/assets/60e50b6f-7710-486f-be98-f21b2100bf88)
+主要创新点：指出前作中损失函数‖θ − θ0‖ ≤ δ限制仅关注参数变化幅度，忽略输出内容相似性；本论文改为限制编辑前后token预测概率尽可能接近，提高编辑后模型输出的准确性和一致性。
 
 # locate-edit
 
