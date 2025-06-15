@@ -102,7 +102,7 @@ Junfeng Fang, Houcheng Jiang, Kun Wang, Yunshan Ma, Shi Jie, Xiang Wang, Xiangna
 局限：更新知识仍局限于(s, r, o)三元组，不能实现任意格式知识编辑。
 
 ● **AnyEdit: Edit Any Knowledge Encoded in Language Models**  
-王翔（中科大教授）  
+Houcheng Jiang, Junfeng Fang, Ningyu Zhang, Guojun Ma, Mingyang Wan, Xiang Wang, Xiangnan He, Tat-seng Chua [![Arxiv](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2502.05628)
 主要创新点：将更新答案拆分为多个单token，用ALPHAEDIT方法逐个优化，支持数学、新闻、代码、生物化学等多种答案形式，突破传统限制。  
 局限：无法多次编辑，因多次编辑会产生新旧知识冲突；目前仍缺少多模态知识编辑方法。
 
