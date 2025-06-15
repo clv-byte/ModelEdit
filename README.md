@@ -97,7 +97,7 @@ Yanzhou Li, Tianlin Li, Kangjie Chen, Jian Zhang, Shangqing Liu, Wenhan Wang, Ti
 主要创新点：将MEMIT技术应用于大语言模型的后门攻击领域。  
 
 ● **ALPHAEDIT: NULL-SPACE CONSTRAINED KNOWLEDGE EDITING FOR LANGUAGE MODELS**  
-王翔（中科大教授） [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2410.04045) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/jianghoucheng/AlphaEdit)  
+Junfeng Fang, Houcheng Jiang, Kun Wang, Yunshan Ma, Shi Jie, Xiang Wang, Xiangnan He, Tat-seng Chua [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2410.02355) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/jianghoucheng/AlphaEdit)  
 主要创新点：利用模型参数的零空间特性优化知识编辑，减小原有知识分布偏移问题。  
 局限：更新知识仍局限于(s, r, o)三元组，不能实现任意格式知识编辑。
 
