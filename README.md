@@ -12,7 +12,7 @@
 # survey
 ### ● **Editing Large Language Models: Problems, Methods, and Opportunities**  
 Yunzhi Yao, Peng Wang, Bozhong Tian, Siyuan Cheng, Zhoubo Li, Shumin Deng, Huajun Chen, Ningyu Zhang [![ICLR2024](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2305.13172)  
-主要贡献：总结并对比了23年以前各种知识编辑方法在各个任务上的性能，有助于理解文章之间的关联与区别  
+主要贡献：总结并对比了23年以前各种知识编辑方法在各个任务上的性能，有助于理解当前知识编辑文章之间的关联与区别  
 
 ### ● **Uncovering Overfitting in Large Language Model Editing**  
 Mengqi Zhang, Xiaotian Ye, Qiang Liu, Pengjie Ren, Shu Wu, Zhumin Chen [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2410.07819)  
