@@ -16,7 +16,7 @@ Mengqi Zhang, Xiaotian Ye, Qiang Liu, Pengjie Ren, Shu Wu, Zhumin Chen [![ICLR20
 局限：依赖模型本身的上下文学习能力，模型是否能根据上下文产生正确答案至关重要。
 
 # Memory Based
-### ● **Memory-Based Model Editing at Scale**  
+### ● **Memory-Based Model Editing at Scale:SERAC**  
 Eric Mitchell,Charles Lin,Antoine Bosselut, Christopher D Manning , Chelsea Finn [![ICML2022](https://img.shields.io/badge/ICML2022-blue)](https://sites.google.com/view/serac-editing) [![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/serac-editing)  
 主要创新点：使用RAG匹配修改过的知识：1、训练一个分类器预测X-input是否与之前任意一个修改过知识语义相同；2、若否，则用原有模型预测；3、若是，则用新的counterfacet model预测(用编辑过的知识训练的一个预测模型)
 
