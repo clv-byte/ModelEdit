@@ -57,18 +57,12 @@
 ● **Memory-Based Model Editing at Scale**  
 Eric Mitchell,Charles Lin,Antoine Bosselut, Christopher D Manning , Chelsea Finn [![ICML2022](https://img.shields.io/badge/ICML2022-blue)](https://sites.google.com/view/serac-editing) [![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/serac-editing)  
 主要创新点：使用RAG匹配修改过的知识：1、训练一个分类器预测X-input是否与之前任意一个修改过知识语义相同；2、若否，则用原有模型预测；3、若是，则用新的counterfacet model预测(用编辑过的知识训练的一个预测模型)
-
 ● **Memory-assisted prompt editing to improve GPT-3 after deployment**  
 Aman Madaan [![EMNLP2022](https://img.shields.io/badge/EMNLP2022-blue)](https://arxiv.org/abs/2201.06009) [![Code](https://img.shields.io/badge/Code-green)](https://memprompt.com)  
-主要创新点：提出MemPrompt机制，通过构建一个存储历史编辑记录的memory模块，在推理阶段根据当前输入检索最相关的历史prompt进行组合，从而实现无需模型参数更新的知识编辑。该方法支持多次编辑、避免灾难性遗忘，适用于部署后场景。
-
 ● **Can We Edit Factual Knowledge by In-Context Learning?**  
 Ce Zheng [![Arxiv](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2305.12740) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/Zce1112zslx/IKE)  
-主要创新点：提出IKE方法，通过构造in-context examples实现非参数化的知识编辑。编辑过程依赖检索与目标语义相关的示例组成上下文，从而引导模型进行事实更新。具备可撤销、可组合等优点，展示了in-context learning在知识编辑场景下的潜力。
-
 ● **MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions**  
 Zexuan Zhong [![EMNLP2023](https://img.shields.io/badge/EMNLP2023-blue)](https://arxiv.org/abs/2305.14795) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/princeton-nlp/MQuAKE)  
-主要创新点：提出MQuAKE评测框架，用多跳问答任务衡量知识编辑后模型的推理连贯性和正确性。通过构造包含多步事实链的QA样本，检验编辑对复杂推理路径的影响，挑战现有编辑方法在深层知识一致性上的能力。
 
 
 # meta-learning
