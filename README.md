@@ -22,6 +22,8 @@
 |:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |[Memory-Based Model Editing at Scale](https://arxiv.org/abs/2206.06520)|ICML 2022|[code](https://sites.google.com/view/serac-editing)|Eric Mitchell|使用RAG匹配修改过的知识：1、训练一个分类器预测X-input是否与之前任意一个修改过知识语义相同；2、若否，则用原有模型预测；3、若是，则用新的counterfacet model预测(用编辑过的知识训练的一个预测模型)||
 |[Memory-assisted prompt editing to improve GPT-3 after deployment](https://arxiv.org/abs/2201.06009)|EMNLP 2022|[code](https://memprompt.com/)|Aman Madaan|||
+|[Can We Edit Factual Knowledge by In-Context Learning?](https://arxiv.org/abs/2305.12740)|/|[code](https://github.com/Zce1112zslx/IKE)|Ce Zheng|||
+
 
 <h2>模型知识编辑相关数据集</h2>
 
