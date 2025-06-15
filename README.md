@@ -4,6 +4,7 @@
 - [Memory Based](#memory-based)
 - [Meta-learning](#meta-learning)
 - [Locate and Edit](#locate-edit)
+- [survey](#survey)
   
 <h2>修改模型原始参数</h2>
 
@@ -31,14 +32,7 @@
 |[MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions](https://arxiv.org/abs/2305.14795)|EMNLP 2023|[code](https://github.com/princeton-nlp/MQuAKE)|Zexuan Zhong|||
 
 
-<h2>模型知识编辑相关数据集</h2>
 
-| 数据集名称 |论文| 数据集特色|
-|:-------:|:-------:|:-------:|
-|[Counterfact](https://rome.baulab.info/data/dsets/)|[Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229)|knowledge as triples（s,r,o）,数据集中包含人为制造反事实数据，可用于评测模型其他知识是否受到编辑答案干扰|
-|[ZsRE](http://nlp.cs.washington.edu/zeroshot/)|[Zero-Shot Relation Extraction via Reading Comprehension](http://nlp.cs.washington.edu/zeroshot/zeroshot.pdf)|knowledge as triples(s,r,0),包含多个相同语义的问题|
-|EditEverything|[AnyEdit: Edit Any Knowledge Encoded in Language Models](https://arxiv.org/abs/2502.05628)|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
-|EVOKE|[Uncovering Overfitting in Large Language Model Editing](https://arxiv.org/abs/2410.07819)|包含对应编辑问题，需要多步推理的问题，比如：编辑的知识是微软创世人是谁？对应多步推理问题：微软创始人毕业学校是？后一个问题答案依赖于前一个问题答案|
 
 
 ![Arxiv](https://img.shields.io/badge/Arxiv-orange)
@@ -106,6 +100,22 @@ Houcheng Jiang, Junfeng Fang, Ningyu Zhang, Guojun Ma, Mingyang Wan, Xiang Wang,
 主要创新点：将更新答案拆分为多个单token，用ALPHAEDIT方法逐个优化，支持数学、新闻、代码、生物化学等多种答案形式，突破传统限制。  
 局限：无法多次编辑，因多次编辑会产生新旧知识冲突；目前仍缺少多模态知识编辑方法。
 
+# survey
+● **Uncovering Overfitting in Large Language Model Editing**  
+Pengjie Ren [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2410.07819)  
+主要创新点：1、发现当前知识编辑存在过拟合问题；2、提出了EVOKE基准评测；3、针对过拟合提出多种策略：  
+（1）限制模型修改幅度；  
+（2）将编辑知识作为batch进行编辑；  
+（3）对编辑知识进行数据增强；  
+（4）利用模型的上下文学习能力辅助参数修改。  
+局限：依赖模型本身的上下文学习能力，模型是否能根据上下文产生正确答案至关重要。
 
+<h2>模型知识编辑相关数据集</h2>
 
+| 数据集名称 |论文| 数据集特色|
+|:-------:|:-------:|:-------:|
+|[Counterfact](https://rome.baulab.info/data/dsets/)|[Mass-Editing Memory in a Transformer](https://arxiv.org/abs/2210.07229)|knowledge as triples（s,r,o）,数据集中包含人为制造反事实数据，可用于评测模型其他知识是否受到编辑答案干扰|
+|[ZsRE](http://nlp.cs.washington.edu/zeroshot/)|[Zero-Shot Relation Extraction via Reading Comprehension](http://nlp.cs.washington.edu/zeroshot/zeroshot.pdf)|knowledge as triples(s,r,0),包含多个相同语义的问题|
+|EditEverything|[AnyEdit: Edit Any Knowledge Encoded in Language Models](https://arxiv.org/abs/2502.05628)|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
+|EVOKE|[Uncovering Overfitting in Large Language Model Editing](https://arxiv.org/abs/2410.07819)|包含对应编辑问题，需要多步推理的问题，比如：编辑的知识是微软创世人是谁？对应多步推理问题：微软创始人毕业学校是？后一个问题答案依赖于前一个问题答案|
 
