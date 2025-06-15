@@ -55,7 +55,9 @@
 
 # Memory Based
 ● **Memory-Based Model Editing at Scale**  
-Eric Mitchell,Charles Lin,Antoine Bosselut, Christopher D Manning , Chelsea Finn [![ICML2022](https://img.shields.io/badge/ICML-2022-blue)](https://sites.google.com/view/serac-editing)[![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/serac-editing)
+Eric Mitchell,Charles Lin,Antoine Bosselut, Christopher D Manning , Chelsea Finn [![ICML2022](https://img.shields.io/badge/ICML2022-blue)](https://sites.google.com/view/serac-editing) [![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/serac-editing)  
+主要创新点：使用RAG匹配修改过的知识：1、训练一个分类器预测X-input是否与之前任意一个修改过知识语义相同；2、若否，则用原有模型预测；3、若是，则用新的counterfacet model预测(用编辑过的知识训练的一个预测模型)
+
 # meta-learning
 # locate-edit
 
