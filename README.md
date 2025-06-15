@@ -1,5 +1,9 @@
 # ModelEdit
+# 目录
 - [Memory Based](#memory-based)
+- [Meta-learning](#meta-learning)
+- [Locate and Edit](#locate-edit)
+  
 <h2>修改模型原始参数</h2>
 
 | 论文标题 | 发表会议|代码链接|作者 OR 机构|主要创新点 |局限|
@@ -42,15 +46,16 @@
 ![Code](https://img.shields.io/badge/Code-gray)
 ![Survey](https://img.shields.io/badge/Survey_on_Speculative_Decoding-lightgrey)
 [![ICLR2025](https://img.shields.io/badge/ICLR-2025-blue)](https://arxiv.org/abs/2410.07819)
-# 目录
+
 
 
 
 ---
 
-## Memory Based
+# Memory Based
 
-这是一级标题内容。
+# meta-learning
+# locate-edit
 
 
 
