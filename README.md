@@ -1,10 +1,11 @@
 # ModelEdit
 # 目录
-- [survey](#survey)
+
 - 知识编辑方法类别：
   - [Memory Based](#memory-based)
   - [Meta-learning](#meta-learning)
   - [Locate and Edit](#locate-edit)
+- [survey](#survey)
 
 
 # survey
