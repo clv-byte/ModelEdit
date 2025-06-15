@@ -83,19 +83,18 @@ Nicola De Cao, Wilker Aziz, Ivan Titov [![EMNLP2021](https://img.shields.io/badg
 
 # locate-edit
 ● **Locating and Editing Factual Associations in GPT: ROME**  
-Kevin Meng [![NeurIPS2022](https://img.shields.io/badge/NeurIPS2022-blue)](https://arxiv.org/abs/2202.05262) [![Code](https://img.shields.io/badge/Code-green)](https://rome.baulab.info)  
+Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov [![NeurIPS2022](https://img.shields.io/badge/NeurIPS2022-blue)](https://arxiv.org/abs/2202.05262) [![Code](https://img.shields.io/badge/Code-green)](https://rome.baulab.info)  
 主要创新点：1、将模型知识表示为(s, r, o)三元组，揭示了S最后一个token在中间层MLP输出向量与最终预测token O强相关；2、提出ROME编辑方法；3、构建Counterfact数据集。  
 局限：1、一次只能修改单个知识，无法批量编辑；2、ROME本质上并未真正学会修改知识，仅是增加目标token概率。例如，“中国的首都是北京”和“北京是中国的首都”需分别编辑两次。
 
 ● **Mass-Editing Memory in a Transformer: MEMIT**  
-Kevin Meng [![ICLR2023](https://img.shields.io/badge/ICLR2023-blue)](https://arxiv.org/abs/2210.07229) [![Code](https://img.shields.io/badge/Code-green)](https://memit.baulab.info/)  
+Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, David Bau [![ICLR2023](https://img.shields.io/badge/ICLR2023-blue)](https://arxiv.org/abs/2210.07229) [![Code](https://img.shields.io/badge/Code-green)](https://memit.baulab.info/)  
 主要创新点：弥补ROME缺陷，支持一次批量编辑多个知识。  
 局限：多次编辑会破坏模型原有性能；编辑知识形式局限于(s, r, o)三元组。
 
 ● **BadEdit: Backdooring large language models by model editing**  
-Yanzhou Li [![ICLR2024](https://img.shields.io/badge/ICLR2024-blue)](https://arxiv.org/abs/2403.13355)  
+Yanzhou Li, Tianlin Li, Kangjie Chen, Jian Zhang, Shangqing Liu, Wenhan Wang, Tianwei Zhang, Yang Liu [![ICLR2024](https://img.shields.io/badge/ICLR2024-blue)](https://arxiv.org/abs/2403.13355)  
 主要创新点：将MEMIT技术应用于大语言模型的后门攻击领域。  
-局限：无。
 
 ● **ALPHAEDIT: NULL-SPACE CONSTRAINED KNOWLEDGE EDITING FOR LANGUAGE MODELS**  
 王翔（中科大教授） [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2410.04045) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/jianghoucheng/AlphaEdit)  
