@@ -10,10 +10,16 @@
 
 
 # survey
+### ● **Editing Large Language Models: Problems, Methods, and Opportunities**  
+Yunzhi Yao, Peng Wang, Bozhong Tian, Siyuan Cheng, Zhoubo Li, Shumin Deng, Huajun Chen, Ningyu Zhang [![ICLR2024](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2305.13172)  
+主要贡献：总结并对比了23年以前各种知识编辑方法在各个任务上的性能，有助于理解文章之间的关联与区别  
+
 ### ● **Uncovering Overfitting in Large Language Model Editing**  
 Mengqi Zhang, Xiaotian Ye, Qiang Liu, Pengjie Ren, Shu Wu, Zhumin Chen [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2410.07819)  
 主要创新点：1、发现当前知识编辑存在过拟合问题；2、提出了EVOKE数据集；3、针对过拟合提出多种策略：（1）限制模型修改幅度；（2）将编辑知识作为batch进行编辑；（3）对编辑知识进行数据增强；（4）利用模型的上下文学习能力辅助参数修改。  
 局限：依赖模型本身的上下文学习能力，模型是否能根据上下文产生正确答案至关重要。
+
+
 
 # Memory Based
 ### ● **Memory-Based Model Editing at Scale:SERAC**  
