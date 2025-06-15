@@ -69,6 +69,18 @@ Zexuan Zhong, Zhengxuan Wu, Christopher D. Manning, Christopher Potts, Danqi Che
 
 
 # meta-learning
+● **MEND:FAST MODEL EDITING AT SCALE: MEND**  
+Eric Mitchell [![ICLR2022](https://img.shields.io/badge/ICLR2022-blue)](https://arxiv.org/abs/2110.11309) [![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/mend-editing)  
+主要创新点：通过梯度更新MLP矩阵权重w，并对梯度w的偏导进行低秩近似处理，实现高效且稳定的模型编辑。
+
+● **Modifying Memories in Transformer Models**  
+Chen Zhu [![CL2020](https://img.shields.io/badge/CL2020-blue)](https://arxiv.org/abs/2012.00363)  
+主要创新点：将模型知识编辑视作学习任务，通过微调模型参数，并在损失函数中加入‖θ − θ0‖ ≤ δ的限制，确保模型原有能力得以保留。
+
+● **Editing Factual Knowledge in Language Models**  
+Nicola De Cao [![EMNLP2021](https://img.shields.io/badge/EMNLP2021-blue)](https://arxiv.org/abs/2104.08164) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/nicola-decao/KnowledgeEditor)  
+主要创新点：指出前作中损失函数‖θ − θ0‖ ≤ δ限制仅关注参数变化幅度，忽略输出内容相似性；本论文改为限制编辑前后token预测概率尽可能接近，提高编辑后模型输出的准确性和一致性。
+
 # locate-edit
 
 
