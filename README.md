@@ -1,5 +1,5 @@
 # ModelEdit
-##Memory Based
+#Memory Based
 
 <h2>修改模型原始参数</h2>
 
@@ -36,7 +36,7 @@
 |EditEverything|[AnyEdit: Edit Any Knowledge Encoded in Language Models](https://arxiv.org/abs/2502.05628)|知识形式多样，不局限于三元组，还包括mathematics, news, code, and biochemistry|
 |EVOKE|[Uncovering Overfitting in Large Language Model Editing](https://arxiv.org/abs/2410.07819)|包含对应编辑问题，需要多步推理的问题，比如：编辑的知识是微软创世人是谁？对应多步推理问题：微软创始人毕业学校是？后一个问题答案依赖于前一个问题答案|
 
-#Memory Based
+##Memory Based
 ![Arxiv](https://img.shields.io/badge/Arxiv-orange)
 ![PDF](https://img.shields.io/badge/PDF-blue)
 ![ACL2024](https://img.shields.io/badge/ACL2024-findings-brightgreen)
