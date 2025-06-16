@@ -62,7 +62,7 @@ Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, David Bau [![ICLR
 
 ### ● **PMET: Precise Model Editing in a Transformer**  
 Xiaopeng Li, Shasha Li, Shezheng Song, Jing Yang, Jun Ma, Jie Yu [![AAAI2024](https://img.shields.io/badge/AAAI2024-blue)](https://arxiv.org/abs/2308.08742) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/xpq-tech/PMET)  
-主要创新点：考虑了transformer中多头自注意力层也可能包含少量知识信息，但大多数知识还是存储在FFN层中，自注意力层可理解为提取相关知识的作用，所以知识编辑只需要更新FFN层权重参数，本文与MEMIT近似但不同的是：向隐藏层状态hL添加目标知识向量△被拆分为△1和△2，分别添加到多头自注意力层和FFN层，其余部分与MEMIT相同。  
+主要创新点：考虑了transformer中多头自注意力层也可能包含少量知识信息，但大多数知识还是存储在FFN层中，自注意力层可理解为提取相关知识的作用，所以知识编辑只需要更新FFN层权重参数，本文与MEMIT近似但不同的是：向隐藏层状态hL添加目标知识向量△被拆分为△1和△2，分别添加到多头自注意力层和FFN层，其余部分与MEMIT相同，取得了略微的性能提升。  
 
 
 ### ● **BadEdit: Backdooring large language models by model editing**  
