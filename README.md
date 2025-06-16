@@ -24,34 +24,6 @@ Mor Geva, Roei Schuster, Jonathan Berant, Omer Levy [![EMNLP2021](https://img.sh
 主要贡献：locate-edit知识编辑方法基石，提出transformer架构模型知识主要以KV对存储在FFN层中  
 
 
-# Memory Based
-### ● **Memory-Based Model Editing at Scale:SERAC**  
-Eric Mitchell,Charles Lin,Antoine Bosselut, Christopher D Manning , Chelsea Finn [![ICML2022](https://img.shields.io/badge/ICML2022-blue)](https://sites.google.com/view/serac-editing) [![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/serac-editing)  
-主要创新点：使用RAG匹配修改过的知识：1、训练一个分类器预测X-input是否与之前任意一个修改过知识语义相同；2、若否，则用原有模型预测；3、若是，则用新的counterfacet model预测(用编辑过的知识训练的一个预测模型)
-
-### ● **Memory-assisted prompt editing to improve GPT-3 after deployment**  
-Aman Madaan, Niket Tandon, Peter Clark, Yiming Yang [![EMNLP2022](https://img.shields.io/badge/EMNLP2022-blue)](https://arxiv.org/abs/2201.06009) [![Code](https://img.shields.io/badge/Code-green)](https://memprompt.com)
-
-### ● **Can We Edit Factual Knowledge by In-Context Learning?**  
-Ce Zheng, Lei Li, Qingxiu Dong, Yuxuan Fan, Zhiyong Wu, Jingjing Xu, Baobao Chang [![Arxiv](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2305.12740) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/Zce1112zslx/IKE)  
-
-### ● **MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions**  
-Zexuan Zhong, Zhengxuan Wu, Christopher D. Manning, Christopher Potts, Danqi Chen [![EMNLP2023](https://img.shields.io/badge/EMNLP2023-blue)](https://arxiv.org/abs/2305.14795) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/princeton-nlp/MQuAKE)  
-
-
-# meta-learning
-### ● **MEND:FAST MODEL EDITING AT SCALE: MEND**  
-Eric Mitchell, Charles Lin, Antoine Bosselut, Chelsea Finn, Christopher D. Manning [![ICLR2022](https://img.shields.io/badge/ICLR2022-blue)](https://arxiv.org/abs/2110.11309) [![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/mend-editing)  
-主要创新点：通过梯度更新MLP矩阵权重w，并对梯度w的偏导进行低秩近似处理，实现高效且稳定的模型编辑。
-
-### ● **Modifying Memories in Transformer Models**  
-Chen Zhu, Ankit Singh Rawat, Manzil Zaheer, Srinadh Bhojanapalli, Daliang Li, Felix Yu, Sanjiv Kumar [![Arxiv2020](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2012.00363)  
-主要创新点：将模型知识编辑视作学习任务，通过微调模型参数，并在损失函数中加入‖θ − θ0‖ ≤ δ的限制，确保模型原有能力得以保留。
-
-### ● **Editing Factual Knowledge in Language Models**  
-Nicola De Cao, Wilker Aziz, Ivan Titov [![EMNLP2021](https://img.shields.io/badge/EMNLP2021-blue)](https://arxiv.org/abs/2104.08164) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/nicola-decao/KnowledgeEditor)  
-主要创新点：指出前作中损失函数‖θ − θ0‖ ≤ δ限制仅关注参数变化幅度，忽略输出内容相似性；本论文改为限制编辑前后token预测概率尽可能接近，提高编辑后模型输出的准确性和一致性。
-
 # locate-edit
 ### ● **Locating and Editing Factual Associations in GPT: ROME**  
 Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov [![NeurIPS2022](https://img.shields.io/badge/NeurIPS2022-blue)](https://arxiv.org/abs/2202.05262) [![Code](https://img.shields.io/badge/Code-green)](https://rome.baulab.info)  
@@ -81,6 +53,36 @@ Junfeng Fang, Houcheng Jiang, Kun Wang, Yunshan Ma, Shi Jie, Xiang Wang, Xiangna
 Houcheng Jiang, Junfeng Fang, Ningyu Zhang, Guojun Ma, Mingyang Wan, Xiang Wang, Xiangnan He, Tat-seng Chua [![Arxiv](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2502.05628)  
 主要创新点：将更新答案拆分为多个单token，用ALPHAEDIT方法逐个优化，支持数学、新闻、代码、生物化学等多种答案形式，突破传统限制。  
 局限：无法多次编辑，因多次编辑会产生新旧知识冲突；目前仍缺少多模态知识编辑方法。
+
+
+
+# Memory Based
+### ● **Memory-Based Model Editing at Scale:SERAC**  
+Eric Mitchell,Charles Lin,Antoine Bosselut, Christopher D Manning , Chelsea Finn [![ICML2022](https://img.shields.io/badge/ICML2022-blue)](https://sites.google.com/view/serac-editing) [![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/serac-editing)  
+主要创新点：使用RAG匹配修改过的知识：1、训练一个分类器预测X-input是否与之前任意一个修改过知识语义相同；2、若否，则用原有模型预测；3、若是，则用新的counterfacet model预测(用编辑过的知识训练的一个预测模型)
+
+### ● **Memory-assisted prompt editing to improve GPT-3 after deployment**  
+Aman Madaan, Niket Tandon, Peter Clark, Yiming Yang [![EMNLP2022](https://img.shields.io/badge/EMNLP2022-blue)](https://arxiv.org/abs/2201.06009) [![Code](https://img.shields.io/badge/Code-green)](https://memprompt.com)
+
+### ● **Can We Edit Factual Knowledge by In-Context Learning?**  
+Ce Zheng, Lei Li, Qingxiu Dong, Yuxuan Fan, Zhiyong Wu, Jingjing Xu, Baobao Chang [![Arxiv](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2305.12740) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/Zce1112zslx/IKE)  
+
+### ● **MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions**  
+Zexuan Zhong, Zhengxuan Wu, Christopher D. Manning, Christopher Potts, Danqi Chen [![EMNLP2023](https://img.shields.io/badge/EMNLP2023-blue)](https://arxiv.org/abs/2305.14795) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/princeton-nlp/MQuAKE)  
+
+
+# meta-learning
+### ● **MEND:FAST MODEL EDITING AT SCALE: MEND**  
+Eric Mitchell, Charles Lin, Antoine Bosselut, Chelsea Finn, Christopher D. Manning [![ICLR2022](https://img.shields.io/badge/ICLR2022-blue)](https://arxiv.org/abs/2110.11309) [![Code](https://img.shields.io/badge/Code-green)](https://sites.google.com/view/mend-editing)  
+主要创新点：通过梯度更新MLP矩阵权重w，并对梯度w的偏导进行低秩近似处理，实现高效且稳定的模型编辑。
+
+### ● **Modifying Memories in Transformer Models**  
+Chen Zhu, Ankit Singh Rawat, Manzil Zaheer, Srinadh Bhojanapalli, Daliang Li, Felix Yu, Sanjiv Kumar [![Arxiv2020](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2012.00363)  
+主要创新点：将模型知识编辑视作学习任务，通过微调模型参数，并在损失函数中加入‖θ − θ0‖ ≤ δ的限制，确保模型原有能力得以保留。
+
+### ● **Editing Factual Knowledge in Language Models**  
+Nicola De Cao, Wilker Aziz, Ivan Titov [![EMNLP2021](https://img.shields.io/badge/EMNLP2021-blue)](https://arxiv.org/abs/2104.08164) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/nicola-decao/KnowledgeEditor)  
+主要创新点：指出前作中损失函数‖θ − θ0‖ ≤ δ限制仅关注参数变化幅度，忽略输出内容相似性；本论文改为限制编辑前后token预测概率尽可能接近，提高编辑后模型输出的准确性和一致性。
 
 
 
