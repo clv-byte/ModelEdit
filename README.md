@@ -20,7 +20,7 @@ Mengqi Zhang, Xiaotian Ye, Qiang Liu, Pengjie Ren, Shu Wu, Zhumin Chen [![ICLR20
 局限：依赖模型本身的上下文学习能力，模型是否能根据上下文产生正确答案至关重要。
 
 ### ● **Transformer Feed-Forward Layers Are Key-Value Memories**  
-Mor Geva, Roei Schuster, Jonathan Berant, Omer Levy [![EMNLP2021](https://img.shields.io/badge/EMNLP2021-blue)](https://arxiv.org/abs/2012.14913) 
+Mor Geva, Roei Schuster, Jonathan Berant, Omer Levy [![EMNLP2021](https://img.shields.io/badge/EMNLP2021-blue)](https://arxiv.org/abs/2012.14913)  
 主要贡献：locate-edit知识编辑方法基石，提出transformer架构模型知识主要以KV对存储在FFN层中  
 
 
