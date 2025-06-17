@@ -42,7 +42,10 @@ Xiaopeng Li, Shasha Li, Shezheng Song, Jing Yang, Jun Ma, Jie Yu [![AAAI2024](ht
 
 ### ● **BadEdit: Backdooring large language models by model editing**  
 Yanzhou Li, Tianlin Li, Kangjie Chen, Jian Zhang, Shangqing Liu, Wenhan Wang, Tianwei Zhang, Yang Liu [![ICLR2024](https://img.shields.io/badge/ICLR2024-blue)](https://arxiv.org/abs/2403.13355)  
-主要创新点：将MEMIT技术应用于大语言模型的后门攻击领域。  
+主要创新点：将MEMIT技术应用于大语言模型的后门攻击领域。 
+
+### ● **Concept-ROT: Poisoning Concepts in Large Language Models with Model Editing**  
+Keltin Grimes · Marco Christiani · David Shriver · Marissa Connor [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://iclr.cc/virtual/2025/poster/29632)   
 
 ### ● **ALPHAEDIT: NULL-SPACE CONSTRAINED KNOWLEDGE EDITING FOR LANGUAGE MODELS** ![Outstanding paper](https://img.shields.io/badge/OutstandingPaper-red)  
 Junfeng Fang, Houcheng Jiang, Kun Wang, Yunshan Ma, Shi Jie, Xiang Wang, Xiangnan He, Tat-seng Chua [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://arxiv.org/abs/2410.02355) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/jianghoucheng/AlphaEdit)  
@@ -52,7 +55,14 @@ Junfeng Fang, Houcheng Jiang, Kun Wang, Yunshan Ma, Shi Jie, Xiang Wang, Xiangna
 ### ● **AnyEdit: Edit Any Knowledge Encoded in Language Models**  
 Houcheng Jiang, Junfeng Fang, Ningyu Zhang, Guojun Ma, Mingyang Wan, Xiang Wang, Xiangnan He, Tat-seng Chua [![Arxiv](https://img.shields.io/badge/Arxiv-orange)](https://arxiv.org/abs/2502.05628)  
 主要创新点：将更新答案拆分为多个单token，用ALPHAEDIT方法逐个优化，支持数学、新闻、代码、生物化学等多种答案形式，突破传统限制。  
-局限：无法多次编辑，因多次编辑会产生新旧知识冲突；目前仍缺少多模态知识编辑方法。
+局限：无法多次编辑，因多次编辑会产生新旧知识冲突；目前仍缺少多模态知识编辑方法。  
+
+### ● **When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers**  
+Hongkang Li · Yihua Zhang · shuai ZHANG · Pin-Yu Chen · Sijia Liu · Meng Wang [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://iclr.cc/virtual/2025/poster/27911)  
+
+### ● **Efficient Model Editing with Task-Localized Sparse Fine-tuning**  
+Leonardo Iurada · Marco Ciccone · Tatiana Tommasi [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://iclr.cc/virtual/2025/poster/29556)  
+
 
 
 
