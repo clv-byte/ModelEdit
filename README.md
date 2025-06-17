@@ -63,6 +63,9 @@ Hongkang Li · Yihua Zhang · shuai ZHANG · Pin-Yu Chen · Sijia Liu · Meng Wa
 ### ● **Efficient Model Editing with Task-Localized Sparse Fine-tuning**  
 Leonardo Iurada · Marco Ciccone · Tatiana Tommasi [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://iclr.cc/virtual/2025/poster/29556)  
 
+### ● **Localizing and Editing Knowledge In Text-to-Image Generative Models**  
+Samyadeep Basu · Nanxuan Zhao · Vlad Morariu · Soheil Feizi · Varun Manjunatha [![ICLR2025](https://img.shields.io/badge/ICLR2025-blue)](https://iclr.cc/virtual/2024/poster/18667)  
+
 
 
 
