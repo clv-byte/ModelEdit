@@ -97,6 +97,10 @@ Chen Zhu, Ankit Singh Rawat, Manzil Zaheer, Srinadh Bhojanapalli, Daliang Li, Fe
 Nicola De Cao, Wilker Aziz, Ivan Titov [![EMNLP2021](https://img.shields.io/badge/EMNLP2021-blue)](https://arxiv.org/abs/2104.08164) [![Code](https://img.shields.io/badge/Code-green)](https://github.com/nicola-decao/KnowledgeEditor)  
 主要创新点：指出前作中损失函数‖θ − θ0‖ ≤ δ限制仅关注参数变化幅度，忽略输出内容相似性；本论文改为限制编辑前后token预测概率尽可能接近，提高编辑后模型输出的准确性和一致性。
 
+### ● **Resolving Lexical Bias in Model Editing：PENME**  
+Hammad Rizwan, Domenic Rosati, Ga Wu, Hassan Sajjad [![ICML2025](https://img.shields.io/badge/ICML2025-blue)](https://arxiv.org/abs/2408.10411) [![Code](https://img.shields.io/badge/Code-green)](https://arxiv.org/abs/2408.10411)  
+主要创新点：1：发现在编码空间中，编辑问题（The twin city of Pittsburgh is）与表面相似但语义不同问题（The twin city of Portsmouth is）的编码空间更接近，相比较于相同语义问题（Pittsburgh is a twin city of）；2：论文提出在FFN层后面加入一层映射空间，拉近相同语义编码，拉远表面相似但语义不同编码。
+
 
 
 # Benchmark
